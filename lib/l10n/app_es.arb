@@ -1,0 +1,8 @@
+{
+    "helloWorld": "¡Hola Mundo!",
+    "title": "Demostración Flutter",
+    "you_have_click_button_this_many_time": "Has hecho clic en este botón muchas veces.",
+    "flutter_demo_page": "Página de demostración flutter",
+    "increment": "INCREMENTO"
+
+}
