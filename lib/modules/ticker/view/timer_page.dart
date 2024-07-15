@@ -51,7 +51,7 @@ class TimerText extends StatelessWidget {
     final secondsStr = (duration % 60).floor().toString().padLeft(2, '0');
     return Text(
       '$minutesStr:$secondsStr',
-      style: Theme.of(context).textTheme.displaySmall,
+      style: Theme.of(context).textTheme.bodySmall,
     );
   }
 }
@@ -106,6 +106,9 @@ class Actions extends StatelessWidget {
                       context.read<TimerBloc>().add(const TimerResumed()),
                 ),
                 FloatingActionButton(
+                  shape: CircleBorder(),
+                  backgroundColor: Colors.red,
+
                   child: const Icon(Icons.replay,color: Colors.white,),
                   onPressed: () =>
                       context.read<TimerBloc>().add(const TimerReset()),
@@ -140,7 +143,7 @@ class Background extends StatelessWidget {
           end: Alignment.bottomCenter,
           colors: [
             Colors.blue.shade50,
-            Colors.blue.shade500,
+            Colors.blue.shade900,
           ],
         ),
       ),
