@@ -25,7 +25,7 @@ Cloud is a public repo which describe the how to use multi-language and bloc lib
 <p align ="left">
 <img src="bloc_timer_2.png" alt="drawing" width="200"/>
 <img src="bloc_timer_1.png" alt="drawing" width="200"/>
-<img src="timer_flow.png" alt="drawing" width="200"/>
+<img src="timer_flow.png" alt="drawing" width="400"/>
 
 </p>
 
