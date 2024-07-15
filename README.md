@@ -1,6 +1,6 @@
 # cloud
 
-Cloud is a public repo which describe the who to use multi-language and bloc library   in your flutter app 
+Cloud is a public repo which describe the how to use multi-language and bloc library   in your flutter app 
 
 ### In the Bloc counter example we are dealing with 4 things.
 
