@@ -1,16 +1,17 @@
 # cloud
 
-A new Flutter project.
+Cloud is a public repo which describe the who to use multi-language and bloc library   in your flutter app 
 
-## Getting Started
+### In the Bloc counter example we are dealing with 4 things.
 
-This project is a starting point for a Flutter application.
+- Cubit : Cubit is responsible to increase the state by 1 (+1 emit ) or vice versa (-1 emit) . Cubit informs the current state to the Bloc Observer and Bloc Builder.
+- Bloc Observer : Bloc observer is observing the state of Cubit, whether it increases or decreases.
+- Bloc Provider : Bloc provider is responsible to provide the access to their child widget.
+- Bloc Builder : Bloc builder is a kind of stateful widget which updates the states of Cubit in the UI. 
 
-A few resources to get you started if this is your first Flutter project:
+<p align ="left">
+<img src="counter.png" alt="drawing" width="200"/>
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+

@@ -16,6 +16,7 @@ class CounterView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var language_support  =  AppLocalizations.of(context);
+    var bloc  = context.read<CounterCubit>();
 
     final textTheme = Theme.of(context).textTheme;
     return Scaffold(
@@ -44,7 +45,7 @@ class CounterView extends StatelessWidget {
 
             key: const Key('counterView_increment_floatingActionButton'),
             child: const Icon(Icons.add,color: Colors.white,),
-            onPressed: () => context.read<CounterCubit>().increment(),
+            onPressed: () => bloc.increment(),
           ),
           const SizedBox(height: 8),
           FloatingActionButton(
@@ -53,7 +54,7 @@ class CounterView extends StatelessWidget {
             backgroundColor: Colors.red,
             key: const Key('counterView_decrement_floatingActionButton'),
             child: const Icon(Icons.remove,color: Colors.white,),
-            onPressed: () => context.read<CounterCubit>().decrement(),
+            onPressed: () => bloc.decrement(),
           ),
         ],
       ),
