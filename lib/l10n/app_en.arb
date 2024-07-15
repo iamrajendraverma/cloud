@@ -4,6 +4,7 @@
   "you_have_click_button_this_many_time": "You have clicked button this many times",
   "flutter_demo_page": "Flutter Demo Home Page",
   "increment": "Increment",
-  "bloc_counter": "Block Counter"
+  "bloc_counter": "Block Counter",
+  "bloc_timer": "Bloc Timer"
 
 }

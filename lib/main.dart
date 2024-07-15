@@ -5,7 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'modules/count/bloc/counter_observer.dart';
-import 'modules/count/view/CounterView.dart';
+import 'modules/ticker/view/timer_page.dart';
 
 void main() {
   Bloc.observer = const CounterObserver();
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         Locale('en'), // English
         Locale('es'), // Spanish
       ],
-      home:  MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
@@ -47,7 +47,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     var localization = AppLocalizations.of(context);
@@ -59,20 +58,25 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            TextButton(onPressed: (){
-
-              Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return const CounterPage();
-              }));
-            }, child: Text(localization.bloc_counter)),
-
+            TextButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return const CounterPage();
+                  }));
+                },
+                child: Text(localization.bloc_counter)),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return const TimerPage();
+                  }));
+                },
+                child: Text(localization.bloc_timer)),
           ],
         ),
       ),
-
     );
   }
 }

@@ -13,5 +13,19 @@ Cloud is a public repo which describe the how to use multi-language and bloc lib
 <img src="counter.png" alt="drawing" width="200"/>
 </p>
 
+### In Bloc Timer  we are dealing with 
+- Periodic Streaming : 
+- Bloc 
+- Bloc event
+- Bloc States 
+- Equatable
+- part of 
+- part 
+
+<p align ="left">
+<img src="bloc_timer_2.png" alt="drawing" width="200"/>
+<img src="bloc_timer_1.png" alt="drawing" width="200"/>
+</p>
+
 
 
