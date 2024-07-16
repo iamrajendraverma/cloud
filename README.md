@@ -18,9 +18,9 @@ Cloud is a public repo which describe the how to use multi-language and bloc lib
 - Bloc : It handle the events and states send and received from the UI
 - Bloc event : This example have play | pause | reset events
 - Bloc States : Initial state | Run and Pause State | Run in progress State | Complete State 
-- Equatable
-- part of 
-- part 
+- Equatable : It is a utility to compare two objects.
+- part of : sub-part of part
+- part : main part.
 
 <p align ="left">
 <img src="bloc_timer_2.png" alt="drawing" width="200"/>
