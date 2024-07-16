@@ -36,3 +36,14 @@ Cloud is a public repo which describe the how to use multi-language and bloc lib
 4. At this point either you can reset the count down or pause the count down.
 5. If you will not pause the count down it will reached to complete. 
 
+##  Infinite list 
+
+In the example Infinite list we are learning about pagination. Here in the bloc section , we are dealing with three states 
+{ initial,success,failure}  and a boolean hasReachedMax. there is an API which gives data with limit of 20 items, per page. If there is no data hasReachedMax will become true.
+
+
+<p align ="left">
+<img src="list_pagination.png" alt="drawing" width="200"/>
+</p>
+
+
