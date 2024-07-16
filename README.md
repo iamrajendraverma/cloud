@@ -25,9 +25,14 @@ Cloud is a public repo which describe the how to use multi-language and bloc lib
 <p align ="left">
 <img src="bloc_timer_2.png" alt="drawing" width="200"/>
 <img src="bloc_timer_1.png" alt="drawing" width="200"/>
-<img src="timer_flow.png" alt="drawing" width="400"/>
-
+<img src="timer_flow.jpg" alt="drawing" width="400"/>
 </p>
 
+### Flow of Timer States and events 
 
+1. Start the time (come to the timer page )
+2. Initial state (click on the start button)
+3. When  you start the timer you will reach to running state and count down will start from (1:00 to 0:59....0:00)
+4. At this point either you can reset the count down or pause the count down.
+5. If you will not pause the count down it will reached to complete. 
 
